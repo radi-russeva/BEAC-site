@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="modstyle.css">
+        </head>
+        <body>
+         <button id="myBtn" class="onclickMe" href=""> Onclick me </button>
+            <div id="myModal" class="modal">
+            <div class="contModal">
+                <div class="appartments_">
+                    <img class="app1" src="appartments.jpg">
+                    <a class="app1_" href=""> APPARTMENTS </a>
+                </div>
+                <div class="houses_">
+                    <img class="hou1" src="houses.jpg">
+                    <a class="hou1_" href=""> HOUSES </a>
+                </div>
+                <div class="masterplans_">
+                    <img class="mast1" src="masterplans.jpg"> 
+                    <a class="mast1_" href=""> MASTERPLANS </a>
+                </div>
+                <div class="offices_">
+                    <img class="off1" src="offices.jpg">
+                    <a class="off1_" href=""> OFFICES </a>
+                </div>
+            </div>
+            </div>
+        </body>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+    </html>

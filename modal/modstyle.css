@@ -1,0 +1,130 @@
+/*This is modal cotnent*/
+.contModal{
+    display: inline-block;
+    background-color: black;
+    width: 33%;
+    height: 1050px;;
+    border: 2px solid #d06924;
+    float: right;
+/*    position: relative;*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+.appartments_, .houses_, .masterplans_, .offices_{
+    width: 100%;
+    position: relative;
+}
+.contModal img{
+    width: 70%;
+    padding: 0px;
+    z-index: -10;
+    opacity: 0.5;
+    transition: 1s;
+}
+.contModal a{
+    text-decoration: none;
+    color: white;
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 10px;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    position: absolute;
+    display: inline-block;
+}
+img.hou1, img.off1 {
+    float: right;
+}
+img.app1, img.mast1{
+    float: left;
+}
+
+
+a.app1_, a.mast1_{
+    float: right;
+    z-index: 100000;
+    transition: 1s;
+}
+a.hou1_, a.off1_{
+    float: left;
+    z-index: 100000;
+    transition: 1s;
+}
+a.app1_{
+    margin-top: 100px;
+    margin-left: -88px;
+}
+a.hou1_{
+    margin-top: 400px;
+    margin-left: -254px;
+}
+
+a.mast1_{
+    margin-left: -88px;
+    margin-top: 600px;
+}
+
+a.off1_{
+    margin-left: -254px;
+    margin-top: 800px;
+}
+
+
+
+.appartments_:hover img.app1 {
+    opacity: 1;
+}
+.appartments_:hover a.app1_{
+    background-color: #d06924;
+}
+.houses_:hover img.hou1{
+    opacity: 1;
+}
+.houses_:hover a.hou1_{ 
+    background-color: #d06924;
+}
+.masterplans_:hover img.mast1{
+    opacity: 1;
+}
+.masterplans_:hover a.mast1_{
+    background-color: #d06924;
+}
+.offices_:hover img.off1{
+    opacity: 1;
+}
+.offices_:hover a.off1_{
+    background-color: #d06924;
+}
+
+/*This is modal background*/
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/*This is the end of modal background*/
+

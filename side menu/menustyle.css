@@ -1,0 +1,47 @@
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #d06924;
+  position: fixed;
+  height: auto;
+  overflow: auto;
+    transition: 1s;
+    display: none;
+}
+
+.sidebar a {
+  display: inline-block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  font-family: Century Gothic, sans-serif;
+  font-size:2vw;  
+}
+ 
+.sidebar a:hover:not(.active) {
+  background-color: black;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    display: block;}
+}
+
+/*
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+*/

@@ -1,0 +1,1105 @@
+body{
+    width: 100%;
+    display: block;
+    background-color: black;
+    margin: auto;
+    position: relative;
+    min-width: 800px;
+}
+* {
+  box-sizing: border-box;
+}
+div.navBarCont a{
+    text-decoration: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: Century Gothic, sans-serif;
+    color: white;
+    opacity: 0.3;
+    line-height: 200%;
+    transition: 0.5s;
+    text-align: center;
+    font-size:15px;;
+}
+button.Projects{
+    text-decoration: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5%;
+    padding-bottom: 50px;
+    font-family: Century Gothic, sans-serif;
+    color: white;
+    opacity: 0.3;
+/*    text-align: right;*/
+    transition: 0.5s;
+    background-color: black;
+    border: none;
+    text-align: center;
+    font-size:15px;
+    cursor: pointer;
+    
+}
+div.Home_ {
+    display: inline-block;
+    width: 15%;
+    float: left;
+    margin-left: 15%;
+    position: absolute;
+}
+div.Projects_{
+    display: inline-block;
+    width: 15%;
+    float: left;
+    margin-left: 30%;
+    position: absolute;
+}
+div.AboutUs_{
+    display: inline-block;
+    width: 15%;
+    float: left;
+    margin-left: 50%;
+    position: absolute;
+}
+div.Contact_{
+    display: inline-block;
+    width: 15%;
+    float: left;
+   margin-left: 70%;
+    position: absolute;
+}
+div.line4{
+    display: inline-block;
+    width:0px;
+    height: 2px;
+    background-color: #c56423;
+    float: left;
+    position: absolute;
+    margin-left: -100%;
+    transition: 2s;
+}
+div.Home_:hover .line4{
+    width:130%;   
+}
+div.line3{
+    display: inline-block;
+    width:0px;
+    height: 2px;
+    background-color: #c56423;
+    float: left;
+    position: absolute;
+    margin-left: -100%;
+    transition: 2s;
+}
+div.Projects_:hover .line3{
+    width:120%;  
+}
+div.line2{
+    display: inline-block;
+    width:0px;
+    height: 2px;
+    background-color: #c56423;
+    float: left;
+    position: absolute;
+    margin-left: -110%;
+    transition: 2s;
+}
+div.AboutUs_:hover .line2{
+    width:130%;  
+}
+div.line1{
+    display: inline-block;
+    width:0px;
+    height: 2px;
+    background-color: #c56423;
+    float: left;
+    position: absolute;
+    margin-left: -115%;
+    transition: 2s;
+}
+div.Contact_:hover .line1{
+    width:210%;
+} 
+
+a.Home:hover {
+    opacity: 1;
+}
+
+button.Projects:hover {
+    opacity: 1;
+}
+a.AboutUs:hover {
+    opacity: 1;
+}
+a.Contact:hover {
+    opacity: 1;
+}
+div.navBarCont{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    position: relative;
+    width: 33%;
+    margin-right: 0px;
+    margin-top: 30px;
+ 
+}
+div.navBarText{
+    display: block;
+    float: right;
+    padding: 20px;
+    margin-right: 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+div.hLine{
+    width: 90%;
+    height: 2px;
+    background-color: #c56423;
+    margin-top: 3%;
+    display: block;
+    float: right;
+    position: relative;
+
+}
+/*
+div.sBar{
+    height: 100%;
+    width: 50px;
+    display: inline-block;
+    float: left;
+    position: fixed;
+}
+*/
+div.sBar img{
+    margin-top: 15%;
+    margin-left: 0px;
+    z-index: 10000;
+    position: absolute;
+    width: 15%;
+}
+div.brownLine{
+    width: 6.5%;
+    height: 500%;
+    background-color: #49250d;
+    display: inline-block;
+    float: left;
+    margin-top: 0px;
+    position: fixed;
+    z-index: -10;
+}
+div.archBuro {
+    display: inline-block;
+    float: left;
+    margin-left: 25%;
+    margin-top: 13%;
+    width: 60%;
+    position: relative;
+}
+div.archBuro p.archs{
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    font-size:1vw;
+    text-align: left;
+    margin-left: -200%;
+    margin-top: -2%;
+    transition: 3s;
+    transition-delay: 1s;
+}
+
+div.archBuro p.arcBuro_{
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 22px;
+    color: white;
+    font-size: 2vw;
+    text-align: left;
+    margin-left: -220%;
+    margin-top: 0%;  
+    transition: 3s;
+/*    transition-delay: -1s;*/
+}
+div.container:hover p.archs{
+    margin-left: -15%;  
+}
+div.container:hover p.arcBuro_{
+    margin-left: -15%;   
+}
+div.container{
+    width:100%;
+    height: 1200px;
+}
+div.hLine2{
+    width: 100%;
+    height: 2px;
+    background-color: #c56423;
+    margin-top: 10%;
+    display: inline-block;
+    float: right;
+    z-index: 1000;
+    position: absolute;
+}
+p.archs2{
+     font-family: Century Gothic, sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    font-size: 1vw;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 8%;
+    position: absolute;
+}
+div.mediaP{
+    display: block;
+    width: 33%;
+    margin-top: 10%;
+    margin-left: 18%;
+    position: absolute;
+    padding-bottom: 50px;
+}
+div.mediaP img{
+    width: 12%;
+    height: auto;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+img.homeBack{
+    visibility: hidden;
+    margin-top: 40%;; 
+    width: 100%;
+    display: inline-block;
+    z-index: 1000;
+    position: relative;  
+}
+
+ .fadeIn {
+        -webkit-animation: animat_show 0.4s;
+        animation: animat_show 0.4s;
+        visibility: visible !important;
+    }
+
+    @-webkit-keyframes animat_show {
+        0%{opacity:0}
+        100%{opacity:1}
+    }
+
+
+/*This is modal content*/
+.contModal{
+    display: block;
+    background-color: black;
+    width: 33%;
+    height: auto;
+    border: 2px solid #d06924;
+    float: right;
+/*    position: relative;*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 1.4s;
+  animation-name: animatetop;
+  animation-duration: 1.4s;
+    position: relative;
+}
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+.appartments_, .houses_, .masterplans_, .offices_{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding: 0px;
+}
+.contModal img{
+    width: 70%;
+    z-index: -10;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.contModal a{
+    text-decoration: none;
+    color: white;
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 10px;
+    background-color: black;
+    padding: 2%;
+    font-size:0.9vw;
+    margin-bottom: 0px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 20%;
+    transition: 1s;
+    z-index: 100000;
+}
+img.hou1, img.off1 {
+    float: right;
+}
+img.app1, img.mast1{
+    float: left;
+}
+
+div.appartments_, div.houses_, div.masterplans_, div.offices_{
+    display: inline-block;
+    position: relative;
+    width: 100%
+}
+
+a.app1_, a.mast1_{
+    float: left;
+    margin-left: -70px;
+}
+a.hou1_, a.off1_{
+    float: left;
+     margin-left: 30%;
+}
+
+.appartments_:hover img.app1 {
+    opacity: 1;
+}
+.appartments_:hover a.app1_{
+    background-color: #d06924;
+}
+.houses_:hover img.hou1{
+    opacity: 1;
+}
+.houses_:hover a.hou1_{ 
+    background-color: #d06924;
+}
+.masterplans_:hover img.mast1{
+    opacity: 1;
+}
+.masterplans_:hover a.mast1_{
+    background-color: #d06924;
+}
+.offices_:hover img.off1{
+    opacity: 1;
+}
+.offices_:hover a.off1_{
+    background-color: #d06924;
+}
+
+/*This is modal background*/
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100000; /* Sit on top */
+  padding-top: 70px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/*This is the end of modal background*/
+
+
+/*Making site responsive*/
+@media screen and (max-width: 800px) {
+    div.comersPr2{
+        width: 120%;
+    }
+     div.sBar img{
+    padding-top: 5%;
+/*         margin-left: -100%;*/
+    }
+    div.navBarCont{
+        float: right;
+        width: 100%;
+}
+
+    div.brownLine2{
+        height: 15%;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    div.navBarCont{
+        float: right;
+        width: 100%;
+}
+    
+}
+@media screen and (min-width: 800px){
+     div.sBar img{ 
+/*    margin-left: 0%;*/
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.sBar img{
+    margin-top: 24%;
+    }
+ 
+} 
+@media screen and (max-width: 1100px) {
+   div.navBarText{
+        padding-right: 50px;
+       
+    } 
+    div.navBarCont{
+        float: right;
+        width: 100%;
+    }
+    div.sBar img{
+    padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    div.sBar img{
+    margin-top: 17%;
+    }
+    
+    div.navBarCont{
+        float: left;
+        width: 100%;
+    }
+} 
+
+   
+    div.sidebar a {
+        opacity: 1;
+    }
+
+div.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #d06924;
+  position: fixed;
+  height: auto;
+  overflow: auto;
+    transition: 1s;
+    display: none;
+    z-index: 1000000;
+}
+
+div.sidebar a {
+    display: inline-block;
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+  font-family: Century Gothic, sans-serif;
+  font-size:2.2vw;  
+}
+ 
+div.sidebar a:hover:not(.active) {
+  background-color: black;
+  color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+    .contModal{
+        width: 90%;
+    }
+    .contModal a{
+        letter-spacing: 5px;
+        font-size:2vw;
+    }
+    .contModal a.app1_, a.masterplans_{
+        padding-right: 15%;
+    }
+    
+    div.brownLine{
+        width: 6.5%; 
+        position: absolute;
+        height: 110%;
+    }
+    div.navBarCont{
+        float: right;
+        width: 80%;
+        margin-right: 10%;
+    }
+    p.archs2{
+        font-size: 1.9vw;
+        margin-top: 7%;
+    }
+    div.mediaP{
+        width: 50%;
+    }
+    .contFormMain{
+        width: 90%;
+        margin-left: 0%;
+    }
+    
+    div.brownLine2{
+    margin-top: -50%;
+}
+
+}
+@media screen and (min-width: 801px) {
+  .sidebar a {
+    opacity: 0;
+  }
+}
+
+/*End of making site responsive*/
+
+contFormMain{
+    display: block;
+    width: 100%;
+    height: 50%;
+/*    position: relative;*/
+}
+
+.contForm{
+    margin-top: 0%;
+  background-color: black;
+  padding: 20px;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    margin-left: 18%
+
+}
+
+.NameCl, .EmCl{
+    width: 49.5%;
+    display: inline-block;
+    padding: 1%;
+}
+.NameCl{
+    float: left;
+}
+.EmCl{
+    float: right;
+}
+
+div.Subj, div.TextAr, .BtnSbm {
+    width: 100%;
+    padding: 1%;
+}
+
+#fname, #lname {
+    background-color: black;
+    width: 100%;
+  padding: 3%;
+  border: 3px solid #d16922;
+  box-sizing: border-box;
+  resize: vertical;
+    position: relative;
+}
+#sub {
+    background-color: black;
+    width: 100%;
+  padding: 1.5%;
+  border: 3px solid #d16922;
+  box-sizing: border-box;
+  resize: vertical;
+    position: relative;
+}
+#subject {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+  padding: 1.5%;
+  border: 3px solid #d16922;
+  box-sizing: border-box;
+  resize: vertical;
+    position: relative;
+}
+
+input[type=submit] {
+  background-color: #46230d;
+  color: #d16922;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+    opacity: 0.5;
+    width: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #d16922;
+  opacity: 1; /* Firefox */
+font-family: Nirmala UI;
+
+    
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #d16922;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #d16922;
+}
+
+#fname:focus {
+  outline: 3px solid #f58336;
+}
+#lname:focus {
+  outline: 3px solid #f58336;
+}
+
+#subject:focus{
+    outline: 3px solid #f58336;
+}
+#sub:focus{
+    outline: 3px solid #f58336;
+}
+input[type=submit]:hover {
+  opacity: 1;
+}
+div.archBuro p.arcBuroCont_{
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 5px;
+    color: white;
+    font-size:1.5vw;
+    text-align: left;
+   margin-left: -10%;
+    margin-top: -2%;
+    transition: 3s;
+    transition-delay: 1s;
+}
+
+.BtnSbm input{
+    font-family: Century Gothic, sans-serif;
+    font-size:15px;
+    
+}
+
+div.archBuro p.archsCont{
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 22px;
+    color: white;
+    font-size: 2.4vw;
+    text-align: left;
+    margin-left: -10%;
+    margin-top: -4%;  
+    transition: 3s;
+/*    transition-delay: -1s;*/
+}
+div.comersPr{
+    display: inline-block;
+    float: left;
+    margin-left: 20%;
+    margin-top: 13%;
+    width: 60%;
+    position: relative;
+}
+p.countrCom{
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 0px;
+    color: white;
+    font-size: 1.5vw;
+    text-align: left;
+/*    margin-left: -220%;*/
+    margin-top: -2%;  
+    transition: 3s;
+/*    transition-delay: -1s;*/
+}
+ p.belg {
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 0px;
+    color: white;
+    font-size: 1vw;
+    text-align: left;
+/*    margin-left: -220%;*/
+/*    margin-top: -2%;  */
+    transition: 3s;
+/*    transition-delay: -1s;*/
+}
+p.numbAddr{
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 0px;
+    color: #d16922;
+    font-size: 1vw;
+    text-align: left;
+/*    margin-left: -220%;*/
+    margin-top: 0;  
+    transition: 3s;
+/*    transition-delay: -1s;*/
+}
+p.telNum{
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 0px;
+    color: #d16922;
+    font-size: 1vw;
+    text-align: left;
+/*    margin-left: -220%;*/
+    margin-top: -1%;  
+    transition: 3s;
+/*    transition-delay: -1s;*/
+}
+
+div.brownLine2{
+    width: 6.5%;
+    height: 25%;
+    background-color: #49250d;
+    display: inline-block;
+    float: left;
+    margin-top: 0px;
+    position: absolute;
+    z-index: -10;
+}
+div.comersPr2{
+    display: block;
+    float: left;
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 80%;
+    position:relative;
+    height: 5%;
+}
+p.archs3{
+        font-size: 1.9vw;
+        margin-top: 7%;
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    font-size: 1vw;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 8%;
+    position: absolute;
+    }
+div.hLine3{
+    width: 100%;
+    height: 2px;
+    background-color: #c56423;
+    margin-top: 18%;
+    display: inline-block;
+    float: right;
+    z-index: 1000;
+    position: absolute;
+}
+
+
+p.archs4{
+     font-family: Century Gothic, sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    font-size: 1vw;
+    text-align: left;
+    margin-left: 70%;
+    margin-top: 20%;
+    position: absolute;
+}
+p.telNum2{
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 0px;
+    color: #d16922;
+    font-size: 1vw;
+    text-align: left;
+/*    margin-left: -220%;*/
+    margin-top: -1%;  
+    transition: 3s;
+/*    transition-delay: -1s;*/
+}
+
+/*Making contact page responsive*/
+
+@media screen and (max-width: 800px){
+    p.archsCont{
+        font-size: 23px !important; }
+    .brownLine2{
+        height: 15% !important;
+    }
+    p.telNum2, p.numbAddr, p.telNum, p.belg, p.countrCom{
+        font-size: 15px !important;}
+    p.archs4{
+        font-size: 10px !important;
+        padding-top: 6%;
+        
+    }
+    div.hLine3{
+        margin-top: 22%;
+    }
+    p.arcBuroCont_{
+        font-size: 12px !important;
+    }
+}
+
+/*End of Making contact page responsive*/
+
+/* Info page */
+
+/*
+display: block;
+    width: 100%;
+    height: 50%;
+*/
+
+
+div.infoContMain{
+    display: block;
+    width: 100%;
+    height: 150%;
+}
+div.infoCont{
+    width: 75%;
+    display: block;
+    margin-top: 10%;
+    position: relative;
+    float: left;
+    margin-left: 25%;
+    height: 50%;
+}
+div.GeertInfo{
+    width: 60%;
+    height: 50%;
+    display: inline-block;
+    position: relative;
+  
+}
+div.infoGeert{
+    width: 60%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: -5%;
+    display: inline-block;
+    border: 3px solid #d16922;
+}
+img.geerkPh{
+    width: 33.3%;
+    float: left;
+    margin: auto;
+}
+ p.geerkBerk {
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 0px;
+    color: white;
+    transform: scaleX(0.9);
+    font-size: 1.5vw;
+    text-align: left;
+     margin-left: 10%;
+/*    margin-left: -220%;*/
+/*    margin-top: -2%;  */
+/*    transition-delay: -1s;*/
+}
+p.archGeert, p.founderArch {
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 0px;
+    color: white;
+    transform: scaleX(0.9);
+    font-size: 1.2vw;
+    text-align: left;
+     margin-left: 10%;
+/*    margin-left: -220%;*/
+  margin-top: -2%;
+/*    transition-delay: -1s;*/
+}
+p.founderArch {
+    margin-top: -5%;
+    padding-bottom: 5%;
+     
+}
+p.infoGeertSite {
+    margin-top: -0.5%;
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 0px;
+    color: white;
+    transform: scaleX(0.9);
+    font-size: 1.2vw;
+    text-align: left;
+     margin-left: 10%;
+    padding-top: 4%;
+    
+}
+.line5{
+    height: 2px;
+    width: 20%;
+    background-color: #d16922;
+     margin-left: 15%;
+     margin-top: -6%;
+    transition: 0.5s;
+    opacity: 0;
+}
+.infoCont:hover .line5{
+    opacity: 1;
+}
+
+div.infoBuro{
+    width: 70%;
+    display: block;
+    float: left;
+    margin-left:  -10%;
+    height: 120%;
+    position: relative;
+    
+}
+div.textInfoBuro{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-left: 45%;
+}
+p.archBuroInfo {
+   font-family: Century Gothic, sans-serif;
+    letter-spacing: 22px;
+    color: #d16922;
+    font-size: 2vw;
+    text-align: right;
+    transition: 3s;
+}
+p.textBuro{
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 0px;
+    color: white;
+    transform: scaleX(0.9);
+    font-size: 1.2vw;
+    text-align: left;
+     margin-left: 20%;
+    
+}
+div.hLine4{
+    width: 100%;
+    height: 2px;
+    background-color: #c56423;
+    margin-top: 10%;
+    display: inline-block;
+    float: right;
+    z-index: 1000;
+    position: absolute;
+}
+p.archs5{
+     font-family: Century Gothic, sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    font-size: 1vw;
+    text-align: left;
+    margin-left: 70%;
+    margin-top: 12%;
+    position: absolute;
+}
+/*Making about us responsive*/
+
+@media screen and (max-width: 800px){
+    p.archBuroInfo{
+        font-size: 20px !important; 
+/*        margin-left: -22%;*/
+    }
+    
+    
+    .brownLine2{
+        height: 15% !important;
+    }
+    p.geerkBerk, p.archGeert, p.founderArch, p.infoGeertSite, p.textBuro{
+        font-size: 13px !important;}
+    p.archs4{
+        font-size: 10px !important;
+        padding-top: 6%;
+        
+    }
+    div.hLine3{
+        margin-top: 22%;
+    }
+    p.arcBuroCont_{
+        font-size: 12px !important;
+    }
+}
+
+/*Making about us responsive*/
+
+
+.imgContHouses{
+    padding-top: 10%;
+    width: 100%;
+    height: 110%;
+    position: relative;
+    display: inline-block;
+    transition: .5s ease;
+}
+.H1{
+    width: 30%;
+    padding: 1.67%;
+    float: left;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 5%;
+    min-width: 30%;
+  height: 445px;
+  max-height: 445px;
+
+}
+img.overlImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    position: relative;
+
+}
+
+
+.OvrOrange{
+    position: relative;
+margin-top: -385.5px;
+  height: 100%;
+  width: 100%;
+opacity: 0;
+  background-color: #d16922;
+    transition: 0.5s;
+}
+
+div.H1:hover .OvrOrange {
+   opacity: 0.7;
+}
+
+p.ProjType_{
+    padding: 0;
+    margin-top: 0;
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 22px;
+    color: black;
+    font-size: 6.4vw;
+    text-align: right;
+    float: right;  
+     line-height: 65%;
+  
+}
+
+div.ProjType{
+    display: inline-block;
+    float: right;
+    margin-top: 12%;
+    height: 7%;
+    width: 40%;
+    margin-left: 60%;
+    position: relative;
+    background-color: #49250d;
+   
+}
+div.ProjType1{
+    display: inline-block;
+    float: right;
+    margin-top: 12%;
+    height: 7%;
+    width: 60%;
+    margin-left: 40%;
+    position: relative;
+    background-color: #49250d;
+   
+}
+/*Making Houses responsive */
+
+@media screen and (max-width: 800px){
+    .OvrOrange{
+margin-top: -198%;
+    }
+    
+    div.ProjType{
+        height: 3%;
+        
+    }
+    
+    
+}
+/*Making Houses responsive */
